@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Comfortaa&display=swap');
+
+Html, body {
+	Height: 100%;
+    Margin: 0;
+    background-color: #424C55;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    height: 100%;
+    grid-template-areas: "nav main";
+  }
+  
+  .nav {
+    display: grid;
+    grid-template-columns: 0.5fr 2.1fr 0.4fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: ". home ." ". social .";
+    grid-area: nav;
+    background-color: #001A23;
+    color: #424C55;
+    font-family: 'Baloo Bhai', cursive;
+  }
+  
+  .home { 
+      grid-area: home;
+      display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+   
+     }
+  
+  .social { 
+      grid-area: social;
+      display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+    
+    }
+  
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 1.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "body body logo";
+    grid-area: main;
+    color: #001A23;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 22px; 
+  }
+
+  h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 64px; 
+  }
+  
+  .body {
+       grid-area: body; 
+       grid-area: body;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+    }
+  
+  .logo { 
+      grid-area: logo;
+      display: flex;
+       justify-content: flex-end;
+       flex-direction: column;
+       align-items: center;
+     }
