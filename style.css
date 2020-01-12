@@ -24,15 +24,22 @@ Html, body {
     font-family: 'Baloo Bhai', cursive;
   }
 
+  /* p:hover {
+    color: #005457;
+
+  } */
+
   a { 
     text-decoration: none;
     color: #8b8b8b;
    }
+   
    a:hover { 
      text-decoration: none;
      color: #005457;
      }
-  
+
+    
   .home { 
       grid-area: home;
       display: flex;
@@ -68,18 +75,20 @@ Html, body {
   }
   
   .body {
-       grid-area: body; 
-       grid-area: body;
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: center;
+      grid-area: body; 
+      grid-area: body;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
     }
   
   .logo { 
       grid-area: logo;
       display: flex;
-       justify-content: flex-end;
-       flex-direction: column;
-       align-items: center;
+      justify-content: flex-end;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
      }
+    
