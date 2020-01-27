@@ -64,7 +64,7 @@ Html, body {
     grid-template-rows: 1fr;
     grid-template-areas: "body body logo";
     grid-area: main;
-    color: #4d4d4d;
+    color: #8B8B8B;
     font-family: 'Baloo Bhai', cursive;
     font-size: 22px; 
   }
